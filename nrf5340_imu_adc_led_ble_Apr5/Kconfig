@@ -1,0 +1,28 @@
+#
+# Copyright (c) 2024
+#
+
+source "Kconfig.zephyr"
+
+#----------------------------------------------------------------------------#
+menu "Log levels"
+
+module = ANALOG_SENSOR
+module-str = analog-sensor
+source "subsys/logging/Kconfig.template.log_config"
+
+module = IMU_SENSOR
+module-str = imu-sensor
+source "subsys/logging/Kconfig.template.log_config"
+
+module = BLE_NUS_CMD
+module-str = ble-nus-cmd
+source "subsys/logging/Kconfig.template.log_config"
+
+module = IMU_LED_BLE
+module-str = imu-led-ble
+source "subsys/logging/Kconfig.template.log_config"
+
+
+
+endmenu # Log levels

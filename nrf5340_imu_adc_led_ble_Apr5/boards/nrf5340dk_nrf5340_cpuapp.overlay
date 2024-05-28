@@ -1,0 +1,76 @@
+/*
+ * Copyright (c) 2024
+ */
+ 
+/ {
+	aliases {
+		fifo-int = &lsm6dsvint1;
+		tap-int  = &lsm6dsvint2;		
+	};
+}; 
+
+/ {
+	lsm6dsv_int {
+		compatible = "gpio-keys";
+		lsm6dsvint1: lsm6dsv_int1 {
+			gpios = <&gpio1 4 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>;
+			label = "FIFO INT";			
+		};
+		lsm6dsvint2: lsm6dsv_int2 {
+			gpios = <&gpio1 5 (GPIO_PULL_DOWN | GPIO_ACTIVE_HIGH)>;
+			label = "TAP INT";			
+		};		
+	};
+};	
+
+/ {
+	zephyr,user {
+		io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>;
+	};
+};
+
+&adc {
+	#address-cells = <1>;
+	#size-cells = <0>;
+
+	channel@0 {
+		reg = <0>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+		zephyr,input-positive = <NRF_SAADC_AIN0>; /* P0.04 */
+		zephyr,resolution = <12>;
+	};
+
+	channel@1 {
+		reg = <1>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+		zephyr,input-positive = <NRF_SAADC_AIN1>; /* P0.05 */
+		zephyr,resolution = <12>;		
+	};
+
+	channel@2 {
+		reg = <2>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+		zephyr,input-positive = <NRF_SAADC_AIN2>; /* P0.06 */
+		zephyr,resolution = <12>;
+	};
+
+	channel@3 {
+		reg = <3>;
+		zephyr,gain = "ADC_GAIN_1_6";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+		zephyr,input-positive = <NRF_SAADC_AIN3>; /* P0.07 */
+		zephyr,resolution = <12>;		
+	};
+};
+
+
+
+
+
