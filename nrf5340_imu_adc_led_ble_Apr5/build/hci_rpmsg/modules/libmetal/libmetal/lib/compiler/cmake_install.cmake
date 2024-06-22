@@ -34,14 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/ncs/toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/armcc/cmake_install.cmake")
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/gcc/cmake_install.cmake")
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/iar/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/armcc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/gcc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/libmetal/lib/compiler/iar/cmake_install.cmake")
 
 endif()
 

@@ -34,236 +34,236 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/ncs/toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/arch/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/arch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/lib/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/soc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/boards/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/boards/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/subsys/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/drivers/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrf/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/wfa-qt-control-app/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/wfa-qt-control-app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mcuboot/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mcuboot/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mbedtls/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/trusted-firmware-m/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/trusted-firmware-m/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cjson/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cjson/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/azure-sdk-for-c/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/azure-sdk-for-c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cirrus-logic/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cirrus-logic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/openthread/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/openthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/memfault-firmware-sdk/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/memfault-firmware-sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/canopennode/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/canopennode/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/chre/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/chre/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cmsis/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/cmsis/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/fatfs/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/fatfs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/hal_nordic/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/hal_nordic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/st/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/st/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/hal_wurthelektronik/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/hal_wurthelektronik/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/libmetal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/liblc3/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/liblc3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/littlefs/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/littlefs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/loramac-node/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/loramac-node/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/lvgl/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/lvgl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/lz4/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/lz4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mipi-sys-t/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/mipi-sys-t/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nanopb/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nanopb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrf_hw_models/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/open-amp/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/open-amp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/picolibc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/picolibc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/segger/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/segger/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/tinycrypt/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/tinycrypt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/TraceRecorder/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/TraceRecorder/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/uoscore-uedhoc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/uoscore-uedhoc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/zcbor/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/zcbor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/zscilib/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/zscilib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrfxlib/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/nrfxlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/connectedhomeip/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/modules/connectedhomeip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/kernel/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/kernel/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/flash/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/usage/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/usage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/reports/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/cmake/reports/cmake_install.cmake")
 endif()
 

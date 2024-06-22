@@ -1,8 +1,0 @@
-osource "c:/ncs/my_projects/adc_1/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_latest/nrf5340_imu_adc_led_ble/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_final/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_mar29/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr1/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr2/nrf5340_imu_adc_led_ble_apr2/boards/shields/*/Kconfig.defconfig"
-osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr5/nrf5340_imu_adc_led_ble_apr5/boards/shields/*/Kconfig.defconfig"
-osource "C:/ncs/v2.5.2/nrf/boards/shields/*/Kconfig.defconfig"

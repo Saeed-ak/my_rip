@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/ncs/toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -42,14 +42,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/include/generated/openamp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/include/generated/openamp")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/virtio/cmake_install.cmake")
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/rpmsg/cmake_install.cmake")
-  include("C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/remoteproc/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/virtio/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/rpmsg/cmake_install.cmake")
+  include("C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/modules/open-amp/open-amp/lib/remoteproc/cmake_install.cmake")
 
 endif()
 

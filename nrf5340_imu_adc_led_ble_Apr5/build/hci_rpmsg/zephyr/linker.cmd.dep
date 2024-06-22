@@ -1,17 +1,17 @@
 linker.cmd: C:/ncs/v2.5.2/zephyr/soc/arm/nordic_nrf/nrf53/linker.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/autoconf.h \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/autoconf.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/arch/arm/aarch32/cortex_m/scripts/linker.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/sections.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/section_tags.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/toolchain.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/toolchain/gcc.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/devicetree.h \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/devicetree_generated.h \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/devicetree_generated.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/sys/util.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/sys/util_macro.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/sys/util_internal.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/sys/util_loops.h \
- c:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\arm-zephyr-eabi\lib\gcc\arm-zephyr-eabi\12.2.0\include\stdbool.h \
+ c:\ncs\toolchains\cf2149caf2\opt\zephyr-sdk\arm-zephyr-eabi\lib\gcc\arm-zephyr-eabi\12.2.0\include\stdbool.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/devicetree/io-channels.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/devicetree/clocks.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/devicetree/gpio.h \
@@ -28,13 +28,13 @@ linker.cmd: C:/ncs/v2.5.2/zephyr/soc/arm/nordic_nrf/nrf53/linker.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/devicetree_regions.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/linker-defs.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/toolchain/common.h \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/offsets.h \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/offsets.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/linker-tool.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/linker-tool-gcc.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/sys/mem_manage.h \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/pm_config.h \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/pm_config.h \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/rel-sections.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rom-start.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rom-start.ld \
  c:\ncs\v2.5.2\zephyr\arch\common\rom_start_address.ld \
  c:\ncs\v2.5.2\zephyr\arch\common\rom_start_offset.ld \
  c:\ncs\v2.5.2\zephyr\arch\arm\core\aarch32\vector_table.ld \
@@ -53,19 +53,19 @@ linker.cmd: C:/ncs/v2.5.2/zephyr/soc/arm/nordic_nrf/nrf53/linker.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/common-rom/common-rom-debug.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/common-rom/common-rom-misc.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/thread-local-storage.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rodata.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rodata.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/kobject-rom.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/cplusplus-rom.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-ram-sections.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-ram-sections.ld \
  c:\ncs\v2.5.2\zephyr\arch\common\ramfunc.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-ramfunc-section.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rwdata.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-ramfunc-section.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-rwdata.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/common-ram.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/kobject-data.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/cplusplus-ram.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-data-sections.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-noinit.ld \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-sections.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-data-sections.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-noinit.ld \
+ C:/Users/sdakb/OneDrive/Desktop/Project/my_rip/nrf5340_imu_adc_led_ble_Apr5/build/hci_rpmsg/zephyr/include/generated/snippets-sections.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/intlist.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/ram-end.ld \
  C:/ncs/v2.5.2/zephyr/include/zephyr/linker/debug-sections.ld

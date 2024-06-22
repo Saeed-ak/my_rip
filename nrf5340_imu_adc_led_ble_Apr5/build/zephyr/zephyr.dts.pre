@@ -1304,7 +1304,7 @@ zephyr_udc0: &usbd {
  };
 };
 # 0 "<command-line>" 2
-# 1 "C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/boards/nrf5340dk_nrf5340_cpuapp.overlay" 1
+# 1 "c:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/boards/nrf5340dk_nrf5340_cpuapp.overlay" 1
 
 
 
@@ -1330,78 +1330,11 @@ zephyr_udc0: &usbd {
  };
 };
 
-/ {
- zephyr,user {
-  io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>;
- };
-};
-
-&adc {
- #address-cells = <1>;
- #size-cells = <0>;
-
- channel@0 {
-  reg = <0>;
-  zephyr,gain = "ADC_GAIN_1_6";
-  zephyr,reference = "ADC_REF_INTERNAL";
-  zephyr,acquisition-time = <0>;
-  zephyr,input-positive = <1>;
-  zephyr,resolution = <12>;
- };
-
- channel@1 {
-  reg = <1>;
-  zephyr,gain = "ADC_GAIN_1_6";
-  zephyr,reference = "ADC_REF_INTERNAL";
-  zephyr,acquisition-time = <0>;
-  zephyr,input-positive = <2>;
-  zephyr,resolution = <12>;
- };
-
- channel@2 {
-  reg = <2>;
-  zephyr,gain = "ADC_GAIN_1_6";
-  zephyr,reference = "ADC_REF_INTERNAL";
-  zephyr,acquisition-time = <0>;
-  zephyr,input-positive = <3>;
-  zephyr,resolution = <12>;
- };
-
- channel@3 {
-  reg = <3>;
-  zephyr,gain = "ADC_GAIN_1_6";
-  zephyr,reference = "ADC_REF_INTERNAL";
-  zephyr,acquisition-time = <0>;
-  zephyr,input-positive = <4>;
-  zephyr,resolution = <12>;
- };
-};
-# 0 "<command-line>" 2
-# 1 "./boards/nrf5340dk_nrf5340_cpuapp.overlay" 1
 
 
 
 
-/ {
- aliases {
-  fifo-int = &lsm6dsvint1;
-  tap-int = &lsm6dsvint2;
- };
-};
 
-/ {
- lsm6dsv_int {
-  compatible = "gpio-keys";
-  lsm6dsvint1: lsm6dsv_int1 {
-   gpios = <&gpio1 4 ((1 << 5) | (0 << 0))>;
-   label = "FIFO INT";
-  };
-  lsm6dsvint2: lsm6dsv_int2 {
-   gpios = <&gpio1 5 ((1 << 5) | (0 << 0))>;
-   label = "TAP INT";
-  };
- };
-};
 
 / {
  zephyr,user {

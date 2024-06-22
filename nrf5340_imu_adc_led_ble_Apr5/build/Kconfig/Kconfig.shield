@@ -5,4 +5,6 @@ osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_mar29/boards/shields/*/Kconf
 osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr1/boards/shields/*/Kconfig.shield"
 osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr2/nrf5340_imu_adc_led_ble_apr2/boards/shields/*/Kconfig.shield"
 osource "c:/ncs/my_projects/nrf5340_imu_adc_led_ble_apr5/nrf5340_imu_adc_led_ble_apr5/boards/shields/*/Kconfig.shield"
+osource "c:/users/sdakb/onedrive/desktop/project/my_rip/nrf5340_imu_adc_led_ble_apr5/boards/shields/*/Kconfig.shield"
+osource "c:/ncs/my_projects/devzone/nrf5340_imu_adc_led_ble_1/boards/shields/*/Kconfig.shield"
 osource "C:/ncs/v2.5.2/nrf/boards/shields/*/Kconfig.shield"

@@ -1,9 +1,9 @@
+C:\Users\sdakb\OneDrive\Desktop\Project\my_rip\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.dts
+C:\Users\sdakb\OneDrive\Desktop\Project\my_rip\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.modules
+C:\Users\sdakb\OneDrive\Desktop\Project\my_rip\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.shield
+C:\Users\sdakb\OneDrive\Desktop\Project\my_rip\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.shield.defconfig
 C:\ncs\My_Projects\nrf5340_imu_adc_led_ble_Apr5\nrf5340_imu_adc_led_ble_Apr5\Kconfig
-C:\ncs\My_Projects\nrf5340_imu_adc_led_ble_Apr5\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.dts
-C:\ncs\My_Projects\nrf5340_imu_adc_led_ble_Apr5\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.modules
-C:\ncs\My_Projects\nrf5340_imu_adc_led_ble_Apr5\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.shield
-C:\ncs\My_Projects\nrf5340_imu_adc_led_ble_Apr5\nrf5340_imu_adc_led_ble_Apr5\build\Kconfig\Kconfig.shield.defconfig
-C:\ncs\toolchains\c57af46cb7\opt\zephyr-sdk\cmake\zephyr\Kconfig
+C:\ncs\toolchains\cf2149caf2\opt\zephyr-sdk\cmake\zephyr\Kconfig
 C:\ncs\v2.5.2\modules\debug\TraceRecorder\config\Kconfig
 C:\ncs\v2.5.2\modules\debug\TraceRecorder\kernelports\Zephyr\Kconfig
 C:\ncs\v2.5.2\modules\debug\TraceRecorder\kernelports\Zephyr\streamports\Semihost\Kconfig

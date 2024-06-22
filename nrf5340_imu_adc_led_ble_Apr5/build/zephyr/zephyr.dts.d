@@ -26,5 +26,4 @@ empty_file.o: C:/ncs/v2.5.2/zephyr/misc/empty_file.c \
  C:/ncs/v2.5.2/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
  C:/ncs/v2.5.2/zephyr/boards/arm/nrf5340dk_nrf5340/nrf5340_cpuapp_partition_conf.dtsi \
  C:/ncs/v2.5.2/zephyr/boards/arm/nrf5340dk_nrf5340/nrf5340_shared_sram_planning_conf.dtsi \
- C:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/boards/nrf5340dk_nrf5340_cpuapp.overlay \
- boards/nrf5340dk_nrf5340_cpuapp.overlay
+ c:/ncs/My_Projects/nrf5340_imu_adc_led_ble_Apr5/nrf5340_imu_adc_led_ble_Apr5/boards/nrf5340dk_nrf5340_cpuapp.overlay
